@@ -1,0 +1,80 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+#app {
+    height: 100vh;
+}
+#main-content {
+    height: 100vh;
+}
+#container-login, #container-register {
+    height: 100vh;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#card-row-login, #card-row-register {
+    height: 100vh;
+}
+#card-container-login, #card-container-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card-login, #card-register {
+    width: 100%;
+}
+.buttons-validate-form {
+    color: #ffffff;
+}
+.fa-twitter {
+    color: #1da1f2;
+}
+.list-menu-items > a:hover {
+    background-color: #1da1f2;
+    color: #ffffff;
+}
+.content-timeline {
+    border-left: solid 1px #e5e5e5;
+    border-right: solid 1px #e5e5e5;
+}
+.content-timeline-title {
+    border-bottom: solid 1px #e5e5e5;
+    
+}
+.timeline-input-name {
+    font-size: large;
+    color: #1da1f2;
+}
+.last-user-image {
+    border-radius: 80px;
+    width: 50px;
+    height: 40px;
+}
+.border-user-right{
+    border-radius: 100px;
+    border: 1px solid #000000;
+    text-decoration: none;
+}
+.border-user-right:hover {
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #ffffff;
+    text-decoration: none;
+}
+.form-tweet-border {
+    border-bottom: solid 3px #e5e5e5;
+}
+
+.full-height-profil {
+    height: 100vh;
+}
+.width-user-right {
+    width: 210px;
+}
